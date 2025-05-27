@@ -1,0 +1,17 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://github-repo-finder.netlify.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all other paths
+Allow: /* 
